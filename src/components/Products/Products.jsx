@@ -1,14 +1,14 @@
-import Container from "../Container/Container";
-import SliderCount from "../SliderCount/SliderCount";
-import IconButton from "../IconButton/IconButton";
-import styles from "./Products.module.scss";
-import termoManSmImg from "../../images/products/termo_man@1x.jpg";
-import termoManLgImg from "../../images/products/termo_man@2x.jpg";
-import girlImgSmImg from "../../images/products/girl_@1x.jpg";
-import girlImgLgImg from "../../images/products/girl_@2x.jpg";
-import AfroManSmImg from "../../images/products/afro_man_4@1x.jpg";
-import AfroManLgImg from "../../images/products/afro_man_4@2x.jpg";
-import svgSprite from "../../images/sprite.svg";
+import Container from '../Container/Container';
+import SliderCount from '../SliderCount/SliderCount';
+import IconButton from '../IconButton/IconButton';
+import styles from './Products.module.scss';
+import termoManSmImg from '../../images/products/termo_man@1x.jpg';
+import termoManLgImg from '../../images/products/termo_man@2x.jpg';
+import girlImgSmImg from '../../images/products/girl_@1x.jpg';
+import girlImgLgImg from '../../images/products/girl_@2x.jpg';
+import AfroManSmImg from '../../images/products/afro_man_4@1x.jpg';
+import AfroManLgImg from '../../images/products/afro_man_4@2x.jpg';
+import svgSprite from '../../images/sprite.svg';
 
 const Products = () => {
   const {
@@ -32,7 +32,7 @@ const Products = () => {
       <Container containerClass={products__container}>
         <div className={products__topLine}>
           <h3 className={products__title}>Найгарячіші товари</h3>
-          <SliderCount current={"0" + 1} total={"0" + 3}/>
+          <SliderCount current={'0' + 1} total={'0' + 3} />
         </div>
 
         <ul className={products__list}>
@@ -59,7 +59,7 @@ const Products = () => {
               </div>
               <IconButton className={products__like}>
                 <svg width="18" height="18" className={likeIcon}>
-                  <use href={svgSprite + "#heart"}></use>
+                  <use href={svgSprite + '#heart'}></use>
                 </svg>
               </IconButton>
             </a>
@@ -85,7 +85,7 @@ const Products = () => {
               </div>
               <IconButton className={products__like}>
                 <svg width="18" height="18" className={likeIcon}>
-                  <use href={svgSprite + "#heart"}></use>
+                  <use href={svgSprite + '#heart'}></use>
                 </svg>
               </IconButton>
             </a>
@@ -113,7 +113,7 @@ const Products = () => {
               </div>
               <IconButton className={products__like}>
                 <svg width="18" height="18" className={likeIcon}>
-                  <use href={svgSprite + "#heart"}></use>
+                  <use href={svgSprite + '#heart'}></use>
                 </svg>
               </IconButton>
             </a>
