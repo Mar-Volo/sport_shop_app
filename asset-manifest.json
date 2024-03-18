@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sport_shop_app/static/css/main.2a164608.css",
+    "main.js": "/sport_shop_app/static/js/main.4e4b32e4.js",
+    "static/js/453.664fc08b.chunk.js": "/sport_shop_app/static/js/453.664fc08b.chunk.js",
+    "static/media/heroImg.jpg": "/sport_shop_app/static/media/heroImg.f003ac1e9a0693639890.jpg",
+    "static/media/afro_man_4@2x.jpg": "/sport_shop_app/static/media/afro_man_4@2x.ae721173981fc62397eb.jpg",
+    "static/media/for_catalog@2x.jpg": "/sport_shop_app/static/media/for_catalog@2x.50f7ad185fde8e3454cd.jpg",
+    "static/media/girl_@2x.jpg": "/sport_shop_app/static/media/girl_@2x.de1b43fa287bccdc00cd.jpg",
+    "static/media/termo_man@2x.jpg": "/sport_shop_app/static/media/termo_man@2x.ac2540eb0bffc5a504fb.jpg",
+    "static/media/afro_man_4@1x.jpg": "/sport_shop_app/static/media/afro_man_4@1x.d7e93a01be6195381e9d.jpg",
+    "static/media/girl_@1x.jpg": "/sport_shop_app/static/media/girl_@1x.63f32548c0623ad06c2f.jpg",
+    "static/media/for_catalog@1x.jpg": "/sport_shop_app/static/media/for_catalog@1x.4411f16c7a870fb80362.jpg",
+    "static/media/termo_man@1x.jpg": "/sport_shop_app/static/media/termo_man@1x.c00ef06fe59f170a1d7d.jpg",
+    "static/media/sprite.svg": "/sport_shop_app/static/media/sprite.2fac4cf3a6d3da4cbf83bca8085e4fcc.svg",
+    "index.html": "/sport_shop_app/index.html",
+    "main.2a164608.css.map": "/sport_shop_app/static/css/main.2a164608.css.map",
+    "main.4e4b32e4.js.map": "/sport_shop_app/static/js/main.4e4b32e4.js.map",
+    "453.664fc08b.chunk.js.map": "/sport_shop_app/static/js/453.664fc08b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a164608.css",
+    "static/js/main.4e4b32e4.js"
+  ]
+}
