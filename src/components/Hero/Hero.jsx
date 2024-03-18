@@ -10,6 +10,9 @@ const Hero = () => {
     hero__title_big,
     hero__title_small,
     hero__img,
+    benefits,
+    benefits__title,
+    benefits__discription,
   } = styles;
   return (
     <section className={hero__section}>
@@ -18,6 +21,11 @@ const Hero = () => {
         <div className={hero__title}>
           <h1 className={hero__title_big}>Швидше. Вище. Сильніше.</h1>
           <h1 className={hero__title_small}>Разом із Nike</h1>
+        </div>
+        <div className={benefits}>
+          <h2 className={benefits__title}>Знижки до 40%</h2>
+
+          <p className={benefits__discription}>Залишився лише тиждень</p>
         </div>
       </Container>
     </section>

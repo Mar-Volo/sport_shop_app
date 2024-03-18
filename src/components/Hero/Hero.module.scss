@@ -1,5 +1,7 @@
 .hero__section {
   font-family: "Inter", sans-serif;
+ font-variant: normal;
+  color: #fff;
   padding: 100px 0;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,13 +9,13 @@
   position: relative;
   overflow: hidden;
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)); /* Градієнт затемнення */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
     z-index: 1;
   }
 }
@@ -25,6 +27,9 @@
   height: auto;
 }
 .hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 0 100px;
   position: relative;
   z-index: 2;
@@ -43,4 +48,32 @@
   font-weight: 300;
   font-size: 64px;
   line-height: calc(77 / 64);
+}
+
+.benefits__title {
+  margin-bottom: 20px;
+  width: 370px;
+  padding: 5px 0;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: calc(48 / 40);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  &::after {
+    background: rgb(255, 255, 255, 0.3);
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    right: -16px;
+    bottom: -16px;
+    filter: blur(15px);
+  }
+}
+.benefits__discription {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: calc(24 / 20);
+  text-align: center;
 }

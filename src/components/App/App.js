@@ -1,6 +1,8 @@
 import TopLine from "../Header/TopLine";
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
+import ForCatalog from "../ForCatalog/ForCatalog";
+import Products from "../Products/Products";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <ForCatalog/>
+        <Products/>
       </main>
     </div>
   );

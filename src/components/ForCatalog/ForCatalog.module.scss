@@ -1,0 +1,27 @@
+.forCatalog__section {
+  color: #343434;
+  padding-top: 36px;
+  padding-bottom: 80px;
+}
+.forCatalog__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.forCatalog__content {
+    width: 570px;
+}
+.forCatalog__title {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: calc(50 / 38);
+  margin-bottom: 30px;
+}
+.forCatalog__discription {
+    width: 422px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+
+  margin-bottom: 40px;
+}

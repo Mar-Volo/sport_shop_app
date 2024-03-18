@@ -3,20 +3,24 @@
 *, *::after, *::before {
   margin: 0;
   padding: 0;
-  text-decoration: none;
-  list-style: none;
   border: none;
   outline: none;
   box-sizing: border-box;
 }
-
-
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #343434;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-variant: small-caps;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
