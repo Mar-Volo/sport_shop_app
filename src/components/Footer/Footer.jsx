@@ -24,43 +24,43 @@ const Footer = () => {
           </li>
           <li className={footer__item}>
             <p className={footer__title}>Покупцям</p>
-            <a href="#" className={footer__link}>
+            <a href="пплата" className={footer__link}>
               Оплата і доставка
             </a>
-            <a href="#" className={footer__link}>
+            <a href="повернення" className={footer__link}>
               Повернення
             </a>
-            <a href="#" className={footer__link}>
+            <a href="питання" className={footer__link}>
               Питання та відповіді
             </a>
           </li>
           <li className={footer__item}>
             <p className={footer__title}>Особистий кабінет</p>
-            <a href="#" className={footer__link}>
+            <a href="дані" className={footer__link}>
               Мої дані
             </a>
-            <a href="#" className={footer__link}>
+            <a href="історыя" className={footer__link}>
               Історія замовлень
             </a>
-            <a href="#" className={footer__link}>
+            <a href="улюблені" className={footer__link}>
               Улюблені
             </a>
-            <a href="#" className={footer__link}>
+            <a href="розсилки" className={footer__link}>
               Розсилки
             </a>
           </li>
           <li className={footer__item}>
             <p className={footer__title}>Про компанію</p>
-            <a href="#" className={footer__link}>
+            <a href="про нас" className={footer__link}>
               Про нас
             </a>
-            <a href="#" className={footer__link}>
+            <a href="новини" className={footer__link}>
               Новини
             </a>
-            <a href="#" className={footer__link}>
+            <a href="партнерство" className={footer__link}>
               Стати партнером
             </a>
-            <a href="#" className={footer__link}>
+            <a href="угода" className={footer__link}>
               Угода користувача
             </a>
           </li>

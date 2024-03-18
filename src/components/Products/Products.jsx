@@ -37,7 +37,7 @@ const Products = () => {
 
         <ul className={products__list}>
           <li className={products__item}>
-            <a className={products__link} href="#">
+            <a className={products__link} href="продукт">
               <picture className={products__img}>
                 <source
                   srcSet={`${termoManSmImg} 1x, ${termoManLgImg} 2x`}
@@ -65,7 +65,7 @@ const Products = () => {
             </a>
           </li>
           <li className={products__item}>
-            <a className={products__link} href="#">
+            <a className={products__link} href="продукт">
               <picture className={products__img}>
                 <source
                   srcSet={`${girlImgSmImg} 1x, ${girlImgLgImg} 2x`}
@@ -91,7 +91,7 @@ const Products = () => {
             </a>
           </li>
           <li className={products__item}>
-            <a className={products__link} href="#">
+            <a className={products__link} href="продукт">
               <picture className={products__img}>
                 <source
                   srcSet={`${AfroManSmImg} 1x, ${AfroManLgImg} 2x`}
