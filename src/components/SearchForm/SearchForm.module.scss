@@ -1,11 +1,23 @@
+
 .search__label {
-    position: relative;
+  position: relative;
+  &:hover {
+    button {
+      background-color: #cfcfcf;
+    }
+  }
 }
 .search__input {
-    padding: 10px;
-    background-color: #E8E8E8;
-    width: 282px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
+  padding: 9px;
+  background-color: #e8e8e8;
+  width: 282px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
 }
+ .search__btn {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+ }

@@ -1,0 +1,21 @@
+.navigation__link {
+  padding: 22px 0;
+  position: relative;
+  cursor: pointer;
+  &:before {
+    content: "";
+    position: absolute;
+    transform: scale(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #343434;
+    transition: all 250ms ease;
+  }
+  &:hover {
+    &:before {
+        transform: scale(1);
+    }
+  }
+}
