@@ -1,6 +1,7 @@
-.products__section {
-  padding-bottom: 80px;
+
+.products__container {
   position: relative;
+  padding-bottom: 80px;
   &::after {
     content: "";
     position: absolute;

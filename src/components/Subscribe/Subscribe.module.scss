@@ -1,0 +1,65 @@
+.subscribe__section {
+  padding-top: 90px;
+  padding-bottom: 108px;
+}
+.subscribe__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 570px;
+  text-align: center;
+}
+.subscribe__title {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: calc(50 / 38);
+  margin-bottom: 30px;
+}
+.subscribe__discription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+.subscribe__label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.subscribe__input {
+    border: 1px solid #343434;
+    height: 50px;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: calc(25 / 16);
+  padding-left: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: inherit;
+  &::placeholder {
+    text-transform: uppercase;
+    color: #959595;
+  }
+}
+.subscribe__btn {
+  border: none;
+  height: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  background-color: #626262;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
