@@ -28,19 +28,7 @@
   font-size: 26px;
   line-height: calc(40 / 26);
 }
-.count {
-  display: flex;
-  align-items: center;
-}
-.count__slash {
-  margin: 0 5px;
-}
-.count__total {
-  margin-right: 30px;
-}
-.arrow__icon:not(:last-child) {
-  margin-right: 20px;
-}
+
 .products__list {
   display: flex;
   flex-wrap: nowrap;

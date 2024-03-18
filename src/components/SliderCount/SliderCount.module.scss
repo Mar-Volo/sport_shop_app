@@ -1,0 +1,16 @@
+.count {
+    display: flex;
+    align-items: center;
+  }
+  .count__slash {
+    margin: 0 5px;
+  }
+  .count__total {
+    margin-right: 30px;
+  }
+  .count__btn {
+    background-color: transparent;
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+  }

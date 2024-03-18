@@ -1,0 +1,22 @@
+.bottomLine {
+  padding: 15px 0;
+  background-color: #343434;
+  color: #fff;
+}
+.bottomLine__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    transition: all 250ms ease;
+    &:hover {
+      color: #d6d5d5;
+    }
+  }
+}
+
+.bottomLine__copiwrite {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+}

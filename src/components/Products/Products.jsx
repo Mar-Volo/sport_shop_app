@@ -1,4 +1,5 @@
 import Container from "../Container/Container";
+import SliderCount from "../SliderCount/SliderCount";
 import IconButton from "../IconButton/IconButton";
 import styles from "./Products.module.scss";
 import termoManSmImg from "../../images/products/termo_man@1x.jpg";
@@ -15,11 +16,6 @@ const Products = () => {
     products__container,
     products__topLine,
     products__title,
-    count,
-    count__current,
-    count__total,
-    arrow__icon,
-    count__slash,
     products__list,
     products__item,
     products__link,
@@ -36,17 +32,7 @@ const Products = () => {
       <Container containerClass={products__container}>
         <div className={products__topLine}>
           <h3 className={products__title}>Найгарячіші товари</h3>
-          <div className={count}>
-            <span className={count__current}>01</span>
-            <span className={count__slash}>/</span>
-            <span className={count__total}>03</span>
-            <svg className={arrow__icon} width="25" height="11">
-              <use href={svgSprite + "#arrow-left"}></use>
-            </svg>
-            <svg className={arrow__icon} width="25" height="11">
-              <use href={svgSprite + "#arrow-right"}></use>
-            </svg>
-          </div>
+          <SliderCount current={"0" + 1} total={"0" + 3}/>
         </div>
 
         <ul className={products__list}>

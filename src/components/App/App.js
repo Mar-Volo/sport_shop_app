@@ -4,6 +4,9 @@ import Hero from "../Hero/Hero";
 import ForCatalog from "../ForCatalog/ForCatalog";
 import Products from "../Products/Products";
 import Subscribe from "../Subscribe/Subscribe";
+import Comments from "../Comments/Comments";
+import Footer from "../Footer/Footer";
+import BottomLine from "../BottomLine/BottomLine";
 
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
         <ForCatalog/>
         <Products/>
         <Subscribe/>
+        <Comments/>
       </main>
+      <Footer/>
+      <BottomLine/>
     </div>
   );
 }
